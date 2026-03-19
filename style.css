@@ -164,7 +164,7 @@
 }  */
 /* Footer global */
 .footer {
-  background: #0f172a; /* bleu foncé moderne */
+  background: #0f172a; 
  
   text-align: center;
   padding: 30px 20px;
@@ -173,7 +173,7 @@
   gap: 20px;
 }
 
-/* Titre */
+
 .footer span {
   color: #fff;
   font-size: 18px;
@@ -182,14 +182,13 @@
   letter-spacing: 1px;
 }
 
-/* Réseaux sociaux */
 .contact {
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 
-/* Icônes */
+
 .contact i {
   font-size: 28px;
   cursor: pointer;
@@ -197,7 +196,7 @@
   color: #fff;
 }
 
-/* Hover effet stylé */
+
 .contact i:hover {
   transform: translateY(-5px) scale(1.1);
 }
@@ -212,7 +211,7 @@
   padding-top: 15px;
 }
 
-/* Icône copyright */
+
 .copyright i {
  
   font-size:30px;
