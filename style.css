@@ -9,8 +9,11 @@
     align-items: center;
     justify-content: center;
 }
-.nav ul li a {
+.nav ul li{
     list-style: none;
+}
+.nav ul li a {
+    
     margin: 0 60px;
     margin-left: 20px;
     font-size: 20px;
@@ -52,8 +55,7 @@
     font-size: 30px;
     max-width: 600px;
     line-height: 1.6;
-   
-    padding: 40px; 
+    
 }
 
 .infos .autres-infos{
@@ -70,3 +72,156 @@
      height: 350px;
      margin: 0 auto;
 }
+.autres-infos h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.consulter p{
+    color: #333;
+    font-size: medium;
+}
+.autres-infos .btn{
+    list-style: none;
+   font-size: 40px;
+   color:#21E2ED;
+}
+
+.autres-infos .fa-solid {
+    color:#21E2ED;
+     font-size: 40;
+     text-decoration: none;
+}
+.comment-ca-marche{
+     
+     background-color: #F5F5F5; 
+     width: 90%;
+     height: 350px;
+     margin: 0 auto;
+     margin-top: 100px;
+}
+.comment-ca-marche h2{
+    padding: 30px;
+    margin: 100px 10px;
+    font-size: 25px;
+   
+}
+.comment {
+
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.comment span {
+    padding: 0 auto;
+    font-size: 30px;
+    color: #333;
+
+}
+.comment .cliquez .fa-solid {
+        border-radius: 2px;
+    color: #f4f4f4;
+    font-size: 40px;
+    background-color:gray;
+}
+/* .footer {
+    
+    background-color: #000; 
+     width: 100%;
+     height: 180px;
+     margin: 0 auto;
+     margin-top:70px ;
+     
+}
+.footer span {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #f4f4f4;
+}
+.contact {
+    
+    display:flex;
+    color: #f4f4f4;
+    margin-top: 20px;
+    font-size: 25px;
+    border-bottom: #F5F5F5;
+    
+}
+
+.copyright {
+    
+    color: #f4f4f4;
+  
+    font-size: 25px;
+    border-top:1px solid #333;
+    
+}
+.copyright span{
+    display:flex;
+    margin-left: 40px;
+}  */
+/* Footer global */
+.footer {
+  background: #0f172a; /* bleu foncé moderne */
+ 
+  text-align: center;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Titre */
+.footer span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Réseaux sociaux */
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Icônes */
+.contact i {
+  font-size: 28px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+/* Hover effet stylé */
+.contact i:hover {
+  transform: translateY(-5px) scale(1.1);
+}
+.copyright {
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 15px;
+}
+
+/* Icône copyright */
+.copyright i {
+ 
+  font-size:30px;
+   color: #fff;
+ 
+}
+
+
+
+
+
+
