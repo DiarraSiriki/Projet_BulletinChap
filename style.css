@@ -126,42 +126,7 @@
     font-size: 40px;
     background-color:gray;
 }
-/* .footer {
-    
-    background-color: #000; 
-     width: 100%;
-     height: 180px;
-     margin: 0 auto;
-     margin-top:70px ;
-     
-}
-.footer span {
-    margin-top: 30px;
-    font-size: 20px;
-    color: #f4f4f4;
-}
-.contact {
-    
-    display:flex;
-    color: #f4f4f4;
-    margin-top: 20px;
-    font-size: 25px;
-    border-bottom: #F5F5F5;
-    
-}
 
-.copyright {
-    
-    color: #f4f4f4;
-  
-    font-size: 25px;
-    border-top:1px solid #333;
-    
-}
-.copyright span{
-    display:flex;
-    margin-left: 40px;
-}  */
 /* Footer global */
 .footer {
   background: #0f172a; 
@@ -222,5 +187,131 @@
 
 
 
+/* PAGE BULLETINS */
 
 
+.education{
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+    url('Ressources/images/page2.jpg');
+
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+    
+}
+.education p{
+    margin-top: 700px;
+    font-size: 45px;
+   
+}
+ 
+
+
+/* .formulaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.forms {
+  background: #ffffff;
+  padding: 80px;
+  border-radius: 10px;
+  width: 300px;
+ 
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.forms input,
+.forms button {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box; 
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+
+.forms button {
+  background: #CD951E;
+  color: #fff;
+  border: none; 
+  cursor: pointer;
+}
+
+
+
+
+ */
+ .formulaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.forms {
+  background: #ffffff;
+  padding: 50px 40px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Labels au-dessus des champs */
+.forms label {
+  display: block;         /* Pour apparaître au-dessus */
+  margin-bottom: 5px;     /* Espacement avec le champ */
+  font-weight: bold;      /* Texte en gras */
+  color: #333;            /* Couleur du texte */
+  font-size: 14px;
+}
+
+/* Champs et bouton */
+.forms input,
+.forms button {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Focus sur les champs */
+.forms input:focus {
+  border-color: #CD951E;
+}
+
+/* Bouton */
+.forms button {
+  background: #CD951E;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+/* Hover bouton */
+.forms button:hover {
+  background: #a97d14;
+}
