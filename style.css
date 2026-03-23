@@ -4,7 +4,17 @@
     padding: 0;
     background-color: #f4f4f4;
 }
+nav{
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 .nav ul{
+  margin-top: -20px;
+    top: -600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +24,7 @@
 }
 .nav ul li a {
     
-    margin: 0 60px;
+    margin: 0 40px;
     margin-left: 20px;
     font-size: 20px;
     color:#333;
@@ -22,7 +32,7 @@
     
 }
 .nav ul img{
-    margin-right: 40%;
+    margin-right: 30%;
 }
 .welcome{
     background-image: 
@@ -43,14 +53,14 @@
     
 }
 
-/* titre */
+
 .welcome h1{
     font-size: 50px;
     margin-bottom: 15px;
     
 }
 
-/* paragraphe */
+
 .welcome p{
     font-size: 30px;
     max-width: 600px;
@@ -216,45 +226,6 @@
  
 
 
-/* .formulaire {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-
-.forms {
-  background: #ffffff;
-  padding: 80px;
-  border-radius: 10px;
-  width: 300px;
- 
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-}
-
-
-.forms input,
-.forms button {
-  width: 100%;
-  max-width: 500px;
-  padding: 10px;
-  border-radius: 5px;
-  box-sizing: border-box; 
-  border: 1px solid #ccc;
-  margin-bottom: 15px;
-  outline: none;
-}
-
-
-.forms button {
-  background: #CD951E;
-  color: #fff;
-  border: none; 
-  cursor: pointer;
-}
-
-
 
 
  */
@@ -273,16 +244,16 @@
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Labels au-dessus des champs */
+
 .forms label {
-  display: block;         /* Pour apparaître au-dessus */
-  margin-bottom: 5px;     /* Espacement avec le champ */
-  font-weight: bold;      /* Texte en gras */
-  color: #333;            /* Couleur du texte */
+  display: block;         
+  margin-bottom: 5px;     
+  font-weight: bold;      
+  color: #333;            
   font-size: 14px;
 }
 
-/* Champs et bouton */
+
 .forms input,
 .forms button {
   width: 100%;
@@ -296,22 +267,56 @@
   font-size: 14px;
 }
 
-/* Focus sur les champs */
+
 .forms input:focus {
   border-color: #CD951E;
 }
 
-/* Bouton */
+
 .forms button {
   background: #CD951E;
   color: #fff;
   border: none;
   cursor: pointer;
   font-weight: bold;
-  transition: background 0.3s;
+  transition:  0.3s;
 }
 
-/* Hover bouton */
+
 .forms button:hover {
   background: #a97d14;
+}
+
+
+
+
+
+/* PAGE NOUVELLES */
+
+
+
+.nouvelles {
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+    url('Ressources/images/logo.png');
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+    
+}
+.nouvelles h2{
+    font-size: 50px;
+    margin-top: 880px;
+    border-radius: 10px;
+    background-color: #85BFE2;
+    box-shadow: #85BFE2 0px 0px 0px;
+    padding: 30px;
 }
