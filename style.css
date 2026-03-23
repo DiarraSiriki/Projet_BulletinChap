@@ -228,7 +228,7 @@ nav{
 
 
 
- */
+ 
  .formulaire {
   display: flex;
   justify-content: center;
@@ -317,6 +317,6 @@ nav{
     margin-top: 880px;
     border-radius: 10px;
     background-color: #85BFE2;
-    box-shadow: #85BFE2 0px 0px 0px;
+    box-shadow: #85BFE2 px 0px 0px;
     padding: 30px;
 }
