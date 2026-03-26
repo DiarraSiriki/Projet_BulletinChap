@@ -15,10 +15,10 @@
 
 ##Fonctionnalités
 
-  saisie du matricule de l’élève
-  afichage du bulletin scolaire
-  calcul automatique des moyennes
-  Message d’erreur en cas de matricule incorrect
+  -saisie du matricule de l’élève
+  -afichage du bulletin scolaire
+  -calcul automatique des moyennes
+  -Message d’erreur en cas de matricule incorrect
 
 ##Fonctionnement
 
